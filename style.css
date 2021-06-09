@@ -15,3 +15,69 @@ body {
   width: 1440px;
   height: 800px;
 }
+p {
+  color: hsl(228, 12%, 44%);
+  font-weight: 700;
+  font-size: 14px;
+}
+/*-------------------------------------------------------------*/
+.top {
+  width: 1440px;
+  height: 245px;
+  background: hsl(225, 100%, 98%);
+  padding: 40px 160px;
+  display: flex;
+  justify-content: space-between;
+}
+/*-------------------------------------------------------------*/
+.stats {
+  display: flex;
+  padding: 0 160px;
+  position: relative;
+  top: -107.5px;
+}
+.stats-item {
+  width: 255px;
+  height: 215px;
+  background: hsl(227, 47%, 96%);
+  border-radius: 10px;
+  margin-right: 30px;
+  text-align: center;
+  padding-top: 30px;
+}
+h6 {
+  color: hsl(228, 12%, 44%);
+}
+h1 {
+  font-size: 55px;
+}
+h5 {
+  text-transform: uppercase;
+  font-weight: 400;
+  color: hsl(228, 12%, 44%);
+  letter-spacing: 5px;
+}
+.green {
+  color: hsl(163, 72%, 41%);
+  font-size: 12px;
+  background: url(images/icon-up.svg) no-repeat;
+}
+.red {
+  color: hsl(356, 69%, 56%);
+  font-size: 12px;
+  background: url(images/icon-down.svg) no-repeat;
+}
+/*-------------------------------------------------------------*/
+.overview {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 0 160px;
+}
+.overview-item {
+  width: 255px;
+  height: 125px;
+  background: hsl(227, 47%, 96%);
+  border-radius: 10px;
+  margin: 0 30px 30px 0;
+  padding: 25px;
+}
