@@ -11,10 +11,10 @@ body {
   justify-content: center;
   font-family: "Inter", sans-serif;
 }
-body {
+.main {
   background: white;
 }
-.dark body {
+.dark .main {
   background: hsl(230, 17%, 14%);
 }
 .main {
@@ -89,7 +89,7 @@ p {
 }
 
 input:checked + .slider {
-  background-color: #2196f3;
+  background: linear-gradient(90deg, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
 }
 
 input:focus + .slider {
@@ -149,14 +149,14 @@ h5 {
 .dark h5 {
   color: hsl(228, 34%, 66%);
 }
-.green {
+p.green {
   color: hsl(163, 72%, 41%);
   font-size: 12px;
   padding-left: 10px;
   background: url(images/icon-up.svg) no-repeat;
   background-position: 0 50%;
 }
-.red {
+p.red {
   color: hsl(356, 69%, 56%);
   font-size: 12px;
   padding-left: 10px;
